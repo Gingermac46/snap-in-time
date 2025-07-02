@@ -81,7 +81,6 @@
   </style>
 </head>
 <body>
-  <h1>🕰️ Snap in Time</h1>
   <p>Match all the clocks before the time runs out. Finish under 30 seconds to unlock a reward!</p>
   <div id="timer">Time left: <span id="time">30</span> seconds</div>
   <div id="game-board"></div>
@@ -176,8 +175,8 @@
     function showMessage(success) {
       gameOver = true;
       message.innerHTML = success
-        ? "🎉 You beat the clock! Use code <strong>TIME5</strong> for 5% off."
-        : "⏳ Out of time! Looks like time got away from you. Want to try again?";
+        ? "You beat the clock! Use code <strong>TIME5</strong> for 5% off."
+        : "Sorry your out of time! Looks like time got away from you. Want to try again?";
     }
 
     function restartGame() {
